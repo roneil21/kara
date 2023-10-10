@@ -2,11 +2,12 @@ import React from "react";
 import { Button } from "./Button";
 import "../components/Hero.css";
 import "../App.css";
+import bg from "/bg.jpg";
 
 const Hero = () => {
   return (
     <div className="hero-container">
-      <img src='/bg.jpg/'/>
+      <img src={bg} />
       <h1>Space to live your life.</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btn">
