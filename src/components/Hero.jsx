@@ -6,7 +6,7 @@ import "../App.css";
 const Hero = () => {
   return (
     <div className="hero-container">
-      <video src='/video.mp4/' autoPlay loop muted />
+      <img src='/bg.jpg/'/>
       <h1>Space to live your life.</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btn">
