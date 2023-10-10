@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMenu}>
+          <Link to="/kara" className="navbar-logo" onClick={closeMenu}>
             <img src={logo} alt="Kara Logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -38,23 +38,23 @@ const Navbar = () => {
           </div>
           <ul className={clicked ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMenu}>
+              <Link to="/kara" className="nav-links" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMenu}>
+              <Link to="/kara/about" className="nav-links" onClick={closeMenu}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/amenities" className="nav-links" onClick={closeMenu}>
+              <Link to="/kara/amenities" className="nav-links" onClick={closeMenu}>
                 Amenities
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/contact"
+                to="/kara/contact"
                 className="nav-links-mobile"
                 onClick={closeMenu}
               >
